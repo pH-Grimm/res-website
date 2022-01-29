@@ -1,5 +1,6 @@
 h1{
-  color: White
+  color: White;
+  font-style: italic;
 }
 
 h2{
@@ -8,6 +9,14 @@ h2{
 
 p{
   color: white
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: aqua;
 }
 
 .btn {
@@ -31,5 +40,6 @@ p{
 
 body{
   background-color: navy;
+  font-family: sans-serif; 
   text-align: center;
 }
