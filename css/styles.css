@@ -1,18 +1,14 @@
 h1{
-  color: White;
+  color: navy;
   font-style: italic;
 }
 
 h2{
-  color: white;
-}
-
-p{
-  color: white
+  color: navy;
 }
 
 ul{
-  color: white;
+  color: black;
   list-style-type: none;
   font-size: 20px;
   padding: 5px;
@@ -32,8 +28,8 @@ a:hover {
   border: 2px solid white;
   width: 200px;
   height: 50px;
-  background-color: navy;
-  color: white;
+  background-color: white;
+  color: navy;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
@@ -42,23 +38,24 @@ a:hover {
 
 .book, .home, .gallery, .activities {
   border-color: white;
-  color: white;
+  color: navy;
 }
 
 .book:hover, .home:hover, .gallery:hover, .activities:hover {
-  background-color: white;
-  color: navy;
+  background-color: navy;
+  color: white;
   width: 400px;
 }
 
 body{
-  background-color: navy;
+  background-color: aquamarine;
   font-family: sans-serif; 
   text-align: center;
+  color: navy;
 }
 
 form{
-  color: white;
+  color: black;
 }
 
 input[type=text] {
@@ -71,10 +68,10 @@ input[type=text] {
 input[type=button], input[type=submit], input[type=reset] {
   width: 200px;
   height: 50px;
-  background-color: navy;
+  background-color: white;
   transition: width 1s;
   border: 2px solid white;
-  color: white;
+  color: navy;
   padding: 14px 28px;
   font-size: 16px;
   text-decoration: none;
@@ -84,6 +81,6 @@ input[type=button], input[type=submit], input[type=reset] {
 
 input[type=button]:hover, input[type=submit]:hover {
   width: 400px;
-  background-color: white;
-  color: navy;
+  background-color: navy;
+  color: white;
 }
