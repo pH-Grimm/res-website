@@ -32,12 +32,12 @@ a:hover {
   transition: width 1s;
 }
 
-.book, .home, .gallery {
+.book, .home, .gallery, .activities {
   border-color: white;
   color: white;
 }
 
-.book:hover, .home:hover, .gallery:hover {
+.book:hover, .home:hover, .gallery:hover, .activities:hover {
   background-color: white;
   color: navy;
   width: 400px;
